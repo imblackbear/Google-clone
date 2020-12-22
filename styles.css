@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /*font-size: 62.5%;*/
+    font-family: arial,sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #202124;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+.nav-header{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+header .nav-header .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav-header .nav-right-section li {
+    list-style: none;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+
+.nav-header .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-header .nav-right-section img{
+    border-radius: 50%;
+}
+
